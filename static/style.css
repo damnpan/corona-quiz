@@ -1,0 +1,30 @@
+
+
+body{
+  margin: 0;
+  padding: 50px;
+  background-color: rgb(19, 133, 233);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white
+}
+h1{
+  color: rgb(84, 238, 84);
+  text-shadow: 1px 1px 5px white;
+}
+h2{
+  font-family:cursive;
+}
+.box {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0,0,0,.8);
+  box-sizing:border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius:10 px;
+
+}
+

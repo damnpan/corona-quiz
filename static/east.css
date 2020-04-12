@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 50px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+
+      
+  animation: blinkingBackground 2s infinite;
+  }
+   @keyframes blinkingBackground{
+    0%		{ background-color: #10c018;}
+    25%		{ background-color: #1056c0;}
+    50%		{ background-color: #ef0a1a;}
+    75%		{ background-color: #254878;}
+    100%  { background-color: #04a1d5;}
+    }
+h1{
+  color: rgb(84, 238, 84);
+  text-shadow: 1px 1px 5px white;
+}
+h2{
+  font-family:cursive;
+}
+.box {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0,0,0.8);
+  box-sizing:border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius:10 px;
+
+}
